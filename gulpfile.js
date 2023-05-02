@@ -15,7 +15,6 @@ const clean = require('gulp-clean');
 
 function scripts() {
   return src([
-    './node_modules/swiper/swiper-bundle.js',
     './app/js/main.js'
   ])
     .pipe(concat('main.min.js'))
